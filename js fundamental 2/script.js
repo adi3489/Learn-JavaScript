@@ -78,41 +78,60 @@
 //   return `${firstName} retires in ${retirement}`;
 // };
 
-const calAge = function (birthYeah) {
-  return 2037 - birthYeah;
-};
+// const calAge = function (birthYeah) {
+//   return 2037 - birthYeah;
+// };
 
-const yearUntilRetirement = function (birthYeah, firstName) {
-  const age = calAge(birthYeah);
-  const retirement = 65 - age;
+// const yearUntilRetirement = function (birthYeah, firstName) {
+//   const age = calAge(birthYeah);
+//   const retirement = 65 - age;
 
-  if (retirement > 0) {
-    console.log(`${firstName} retires in ${retirement} years`);
-    return retirement;
-  } else {
-    return -1;
-    console.log(`${firstName} has already retired`);
-  }
-  //   return retirement;
-  // return
-};
-console.log(yearUntilRetirement(1991, "jonas"));
-console.log(yearUntilRetirement(1950, "Aditya"));
+//   if (retirement > 0) {
+//     console.log(`${firstName} retires in ${retirement} years`);
+//     return retirement;
+//   } else {
+//     return -1;
+//     console.log(`${firstName} has already retired`);
+//   }
+//   //   return retirement;
+//   // return
+// };
+// console.log(yearUntilRetirement(1991, "jonas"));
+// console.log(yearUntilRetirement(1950, "Aditya"));
 
-//Arrays..................................................................................................................
+// //Arrays..................................................................................................................
 
-const friend1 = "Michael";
-const friend2 = "Steven";
-const friend = "peter";
+// const friend1 = "Michael";
+// const friend2 = "Steven";
+// const friend = "peter";
 
-const friends = ["Michael", "Steven", "Peter"];
-console.log(friends);
+// const friends = ["Michael", "Steven", "Peter"];
+// console.log(friends);
 
-const years = new Array(1991, 1984, 2008, 2020);
+// const years = new Array(1991, 1984, 2008, 2020);
 
-console.log(friends[0]);
+// console.log(friends[0]);
 
-console.log(friends.length);
-const firstName = "aditya";
-const adi = [firstName, "singh", 21, "teacher"];
-console.log(adi);
+// console.log(friends.length);
+// const firstName = "aditya";
+// const adi = [firstName, "singh", 21, "teacher"];
+// console.log(adi);
+// const jonasArray = [["Michael", "Peter", "Steven"]];
+// console.log(jonasArray[0][1]);
+
+// const mark = {
+//   fullName: "Mark Miller",
+//   mass: 78,
+//   height: 1.69,
+//   CalcBMI: function () {
+//     this.bmi = this.mass / this.height ** 2;
+//     return this.bmi;
+//   },
+// };
+// mark.CalcBMI();
+// console.log(mark.bmi);
+
+//for loop keep runing while condition is true
+for (let rep = 1; rep <= 10; rep++) {
+  console.log(`Aditya ${rep}`);
+}
